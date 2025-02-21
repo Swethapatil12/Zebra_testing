@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ZebraTestingSuite" class="navigator-link">
+              <span class="suite-name border-failed">ZebraTestingSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ZebraTestingSuite" class="navigator-link ">
+                    <span>C:\Users\I19-labuser149440\eclipse-workspace\TestNGzebra\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ZebraTestingSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ZebraTestingSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ZebraTestingSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ZebraTestingSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ZebraTestingSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ZebraTestingSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 4 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ZebraTestingSuite" class="hide-methods failed suite-ZebraTestingSuite"> (hide)</a> <!-- hide-methods failed suite-ZebraTestingSuite -->
+                      <a href="#" panel-name="suite-ZebraTestingSuite" class="show-methods failed suite-ZebraTestingSuite"> (show)</a> <!-- show-methods failed suite-ZebraTestingSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ZebraTestingSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZebraTestingSuite" title="TestNGpackage.POMsecondscneario" class="method navigator-link" hash-for-method="clickcookies">clickcookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZebraTestingSuite" title="TestNGpackage.ZebraURL" class="method navigator-link" hash-for-method="fillPartnerContactForm(pooja, patil, ITC, pooja@example.com)">fillPartnerContactForm(pooja, patil, ITC, pooja@example.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZebraTestingSuite" title="TestNGpackage.ZebraURL" class="method navigator-link" hash-for-method="searchPartnerByABC(abc)">searchPartnerByABC(abc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZebraTestingSuite" title="TestNGpackage.ZebraURL" class="method navigator-link" hash-for-method="searchPartnerByWave(wave)">searchPartnerByWave(wave)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ZebraTestingSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ZebraTestingSuite" class="hide-methods passed suite-ZebraTestingSuite"> (hide)</a> <!-- hide-methods passed suite-ZebraTestingSuite -->
+                      <a href="#" panel-name="suite-ZebraTestingSuite" class="show-methods passed suite-ZebraTestingSuite"> (show)</a> <!-- show-methods passed suite-ZebraTestingSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ZebraTestingSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZebraTestingSuite" title="TestNGpackage.ZebraURL" class="method navigator-link" hash-for-method="closePopupAndTakeHomepageScreenshot">closePopupAndTakeHomepageScreenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZebraTestingSuite" title="TestNGpackage.ZebraURL" class="method navigator-link" hash-for-method="navigateToDifferentSections">navigateToDifferentSections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ZebraTestingSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ZebraTestingSuite" class="panel ZebraTestingSuite">
+          <div class="suite-ZebraTestingSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGpackage.ZebraURL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPartnerContactForm(pooja, patil, ITC, pooja@example.com)">
+                  </a> <!-- fillPartnerContactForm(pooja, patil, ITC, pooja@example.com) -->
+                  <span class="method-name">fillPartnerContactForm</span>
+                  <span class="parameters">(pooja,patil,ITC,pooja@example.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed during fillPartnerContactForm: Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()=&apos;Contact Partner&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54381/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a8e0b2091d9fb8fb260b6800333f960
+	at TestNGpackage.ZebraURL.fillPartnerContactForm(ZebraURL.java:257)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPartnerByABC(abc)">
+                  </a> <!-- searchPartnerByABC(abc) -->
+                  <span class="method-name">searchPartnerByABC</span>
+                  <span class="parameters">(abc)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed during searchPartnerByABC: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a8e0b2091d9fb8fb260b6800333f960, clickElement {id=f.B54596CEBA4837713060B93B4439A9BE.d.E06C9AC7797052D122725E9C0C966753.e.2462}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54381/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a8e0b2091d9fb8fb260b6800333f960)] -&gt; xpath: //*[@id=&quot;partner_search_listing&quot;]/div[3]/div[2]/div[2]/zbr-search-list-item/div[1]/div[3]/div[2]/a/button]
+Session ID: 6a8e0b2091d9fb8fb260b6800333f960
+	at TestNGpackage.ZebraURL.searchPartnerByABC(ZebraURL.java:164)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPartnerByWave(wave)">
+                  </a> <!-- searchPartnerByWave(wave) -->
+                  <span class="method-name">searchPartnerByWave</span>
+                  <span class="parameters">(wave)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed during searchPartnerByWave: Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()=&apos;BACK TO RESULTS&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54381/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a8e0b2091d9fb8fb260b6800333f960
+	at TestNGpackage.ZebraURL.searchPartnerByWave(ZebraURL.java:202)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZebraTestingSuite-class-failed -->
+          <div class="suite-ZebraTestingSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGpackage.POMsecondscneario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickcookies">
+                  </a> <!-- clickcookies -->
+                  <span class="method-name">clickcookies</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //button[text()=Accept Cookies&apos;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//button[text()=Accept Cookies&apos;]&apos; is not a valid XPath expression.
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14f28ab004e39f77ff73a68aff758906, findElement {using=xpath, value=//button[text()=Accept Cookies&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54498/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14f28ab004e39f77ff73a68aff758906
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at TestNGpackage.ZebraMainClass.clickAcceptCookies(ZebraMainClass.java:20)
+	at TestNGpackage.POMsecondscneario.clickcookies(POMsecondscneario.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZebraTestingSuite-class-failed -->
+          <div class="suite-ZebraTestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGpackage.ZebraURL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopupAndTakeHomepageScreenshot">
+                  </a> <!-- closePopupAndTakeHomepageScreenshot -->
+                  <span class="method-name">closePopupAndTakeHomepageScreenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToDifferentSections">
+                  </a> <!-- navigateToDifferentSections -->
+                  <span class="method-name">navigateToDifferentSections</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZebraTestingSuite-class-passed -->
+        </div> <!-- panel ZebraTestingSuite -->
+        <div panel-name="test-xml-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\I19-labuser149440\eclipse-workspace\TestNGzebra\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ZebraTestingSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Zebra Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGpackage.ZebraURL&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;closePopupAndTakeHomepageScreenshot&quot;/&gt;
+          &lt;include name=&quot;navigateToDifferentSections&quot;/&gt;
+          &lt;include name=&quot;searchPartnerByABC&quot;/&gt;
+          &lt;include name=&quot;searchPartnerByWave&quot;/&gt;
+          &lt;include name=&quot;fillPartnerContactForm&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestNGpackage.ZebraURL --&gt;
+      &lt;class name=&quot;TestNGpackage.POMsecondscneario&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Zebra Tests --&gt;
+&lt;/suite&gt; &lt;!-- ZebraTestingSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ZebraTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Zebra Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ZebraTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ZebraTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ZebraTestingSuite');
+function tableData_ZebraTestingSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchPartnerByWave')
+data.setCell(0, 2, 'TestNGpackage.ZebraURL')
+data.setCell(0, 3, 20345);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fillPartnerContactForm')
+data.setCell(1, 2, 'TestNGpackage.ZebraURL')
+data.setCell(1, 3, 20293);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchPartnerByABC')
+data.setCell(2, 2, 'TestNGpackage.ZebraURL')
+data.setCell(2, 3, 8662);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigateToDifferentSections')
+data.setCell(3, 2, 'TestNGpackage.ZebraURL')
+data.setCell(3, 3, 7898);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickcookies')
+data.setCell(4, 2, 'TestNGpackage.POMsecondscneario')
+data.setCell(4, 3, 2430);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'closePopupAndTakeHomepageScreenshot')
+data.setCell(5, 2, 'TestNGpackage.ZebraURL')
+data.setCell(5, 3, 2419);
+window.suiteTableData['ZebraTestingSuite']= { tableData: data, tableDiv: 'times-div-ZebraTestingSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-ZebraTestingSuite">
+              </div> <!-- times-div-ZebraTestingSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ZebraTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ZebraTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGpackage.ZebraURL</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@6a2c717f)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">closePopupAndTakeHomepageScreenshot</span>
+                <span class="method-start">19035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateToDifferentSections</span>
+                <span class="method-start">21549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchPartnerByABC(abc)</span>
+                <span class="method-start">29570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchPartnerByWave(wave)</span>
+                <span class="method-start">38450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillPartnerContactForm(pooja, patil, ITC, pooja@example.com)</span>
+                <span class="method-start">58852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">79195 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGpackage.POMsecondscneario</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openurlagain(org.testng.TestRunner@6a2c717f)</span>
+                <span class="method-start">79700 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickcookies</span>
+                <span class="method-start">81539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeurlagain</span>
+                <span class="method-start">84124 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

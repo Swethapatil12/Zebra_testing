@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZebraTestingSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Zebra Tests(failed)">
+    <classes>
+      <class name="TestNGpackage.ZebraURL">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchPartnerByABC" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="fillPartnerContactForm" invocation-numbers="0"/>
+          <include name="searchPartnerByWave" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGpackage.ZebraURL -->
+      <class name="TestNGpackage.POMsecondscneario">
+        <methods>
+          <include name="closeurlagain"/>
+          <include name="openurlagain"/>
+          <include name="clickcookies"/>
+        </methods>
+      </class> <!-- TestNGpackage.POMsecondscneario -->
+    </classes>
+  </test> <!-- Zebra Tests(failed) -->
+</suite> <!-- Failed suite [ZebraTestingSuite] -->

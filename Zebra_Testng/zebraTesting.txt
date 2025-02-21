@@ -1,0 +1,26 @@
+Industry section submenu's are:
+Retail
+Healthcare
+Manufacturing
+Transportation and Logistics
+Hospitality
+Field Operations
+Mobile Technology for Energy and Utilities
+
+
+Mobile tech sections available options:
+Asset Lifecycle Management
+Customer Service Technology
+Field Dispatch and Routing
+Emergency Response Planning and Management
+Gas and Electric
+GIS Asset Mapping
+Digital Safety Inspection and Compliance Reporting
+Inventory Management for Energy and Utilities
+Mining
+Oil and Gas
+Real-time Remote Asset Monitoring
+Maintenance and Repair Scheduling and Completion
+Telecommunications
+Water Utilities
+Mobile Work Order Management
